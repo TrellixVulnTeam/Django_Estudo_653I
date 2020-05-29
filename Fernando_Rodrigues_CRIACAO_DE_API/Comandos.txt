@@ -1,0 +1,22 @@
+https://www.youtube.com/playlist?list=PLsTx8TSx2fHY01FnuxBdwiBiOdZdPGik7
+
+-> python -m venv envApi 
+-> source envApi/Scripts/activate
+-> pip install djangorestframework
+
+-> django-admin startproject api_todo
+
+No setting.py add a lib 'rest_framework' em INSTALLED_APPSls
+
+django cria uma linha de tempo para o objeto modelo
+-> python manage.py makemigrations
+
+O django faz a criação dos objeto para o banco de dados
+-> python manage.py migrate
+
+Acessa o ambiente de desenvolvimento do projeto
+-> python manage.py shell
+
+Terminal do shell mais robusto
+-> pip install ipython
+
